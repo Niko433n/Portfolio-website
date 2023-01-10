@@ -1,0 +1,56 @@
+@media (min-width: 800px) {
+  .grid_1-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-inline: 80px;
+    padding-bottom: 20px;
+  }
+}
+@media (max-width: 801px) {
+  main {
+    margin-inline: 0;
+  }
+}
+
+h1 {
+  text-align: center;
+  font-family: Tirobangla;
+  border: 0.5rem solid #587b7f;
+  margin-bottom: 2rem;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.accordion {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.accordion-item {
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 5px;
+  font-family: Tirobangla;
+}
+
+.accordion-item-header {
+  padding: 10px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.accordion-item-content {
+  padding: 10px;
+  display: none;
+  font-family: Tirobangla;
+}
+
+.accordion :hover {
+  color: #8dab7f;
+}
